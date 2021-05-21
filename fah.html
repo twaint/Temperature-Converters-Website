@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Calculate Fahrenheit</title>
+    <script src="scripts/fah.js"> </script>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lrg bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="./home.html">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+
+            <ul class="navbar-nav">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./celsius.html">Calculate Celsius</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./fah.html">Calculate Fahrenheit</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+
+        <main>
+            <div class="wrapper">
+
+                <form id="Fah">
+                    <p>
+                        <label>Celsius</label>
+                        <input id="inputCelsius" type="number" placeholder="Celsius" />
+                        <input type="button" id="findFahBtn" value="Calculate" />
+                    </p>
+
+                    <p></p>
+                    <p>Fahrenheit: <input type="text" id="outputFah" readonly /></p>
+                    <input type="button" id="resetBtn" value="Reset" />
+
+                </form>
+            </div>
+
+        </main>
+
+
+    </main>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
